@@ -6,7 +6,7 @@ def getTotalX(a, b):
     max_a = max(a)
     max_b = max(b)
     for num in range(max_a, max_b+1):
-        con1 = all([num%i==0 for i in a])
+        con1 = all([num%i==0 for i in a]) #all([True,True,False])=False False=0
         con2 = all([j%num==0 for j in b])
         count += con1*con2
     return count
