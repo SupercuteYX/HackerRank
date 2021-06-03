@@ -11,3 +11,5 @@ def climbingLeaderboard(ranked, player):
         r.append(len(rank)+1) 
         
     return r
+
+# https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true
