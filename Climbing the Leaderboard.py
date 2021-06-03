@@ -1,4 +1,5 @@
-    #set()生成去掉duplicate之后的集合{}，list（）把集合{}转为list，sorted（）排序
+def climbingLeaderboard(ranked, player):
+    #set()生成去掉duplicate之后的集合{}，list（）把集合{}转为list，sorted（）排序
     rank = sorted(list(set(ranked)), reverse=True)
     r = []
             
